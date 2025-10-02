@@ -1,7 +1,0 @@
-{"timestamp":"2025-10-01T06:00:01Z","level":"INFO","msg":"terraform plan start"}
-{"timestamp":"2025-10-01T06:00:02Z","level":"DEBUG","tf_req_id":"abc-123","tf_http_req_body":{"method":"POST","url":"/create","json":{"name":"vm1","token":"abcd1234567890ef"}}}
-{"timestamp":"2025-10-01T06:00:03Z","level":"DEBUG","tf_req_id":"abc-123","tf_http_res_body":{"status":200,"json":{"id":"vm-1","password":"secret"}}}
-{"timestamp":"2025-10-01T06:00:04Z","level":"INFO","msg":"terraform plan end"}
-{"timestamp":"2025-10-01T06:00:05Z","level":"INFO","msg":"terraform apply start"}
-{"timestamp":"2025-10-01T06:00:06Z","level":"ERROR","msg":"resource failed","tf_req_id":"xyz-9"}
-{"timestamp":"2025-10-01T06:00:07Z","level":"INFO","msg":"terraform apply end"}
